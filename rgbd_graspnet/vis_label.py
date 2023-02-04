@@ -14,7 +14,7 @@ def str2bool(v):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-
+    
     parser.add_argument(
         "--dataset_root", default=GRASPNET_ROOT, help="Dataset root directory path"
     )
